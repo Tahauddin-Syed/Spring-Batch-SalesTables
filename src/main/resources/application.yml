@@ -7,8 +7,8 @@ spring:
     name: Spring-Batch-Project
   datasource:
     url: jdbc:mysql://localhost:3306/batch
-    username: syed
-    password: hersche1845
+    username: {  }
+    password: {  }
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.MySQL8Dialect
