@@ -1,0 +1,147 @@
+2023-07-06T16:33:29.649+03:00  INFO 76733 --- [main] com.tahauddin.syed.Batch04Application    : Starting Batch04Application using Java 17.0.7 with PID 76733 (/home/syed/Desktop/spring-batch/batch-04/target/classes started by syed in /home/syed/Desktop/spring-batch/batch-04)
+2023-07-06T16:33:29.674+03:00  INFO 76733 --- [main] com.tahauddin.syed.Batch04Application    : No active profile set, falling back to 1 default profile: "default"
+2023-07-06T16:33:30.826+03:00  INFO 76733 --- [main] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 4 ms.
+2023-07-06T16:33:31.600+03:00  INFO 76733 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-06T16:33:31.631+03:00  INFO 76733 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2023-07-06T16:33:31.816+03:00  INFO 76733 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-07-06T16:33:31.828+03:00  INFO 76733 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-07-06T16:33:32.711+03:00  INFO 76733 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-07-06T16:33:32.739+03:00  INFO 76733 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-06T16:33:32.740+03:00  INFO 76733 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-06T16:33:32.996+03:00  INFO 76733 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-06T16:33:32.997+03:00  INFO 76733 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3115 ms
+2023-07-06T16:33:33.230+03:00  INFO 76733 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-06T16:33:33.301+03:00  INFO 76733 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-06T16:33:33.304+03:00  INFO 76733 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-06T16:33:33.517+03:00  INFO 76733 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T16:33:33.741+03:00  INFO 76733 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-06T16:33:33.765+03:00  INFO 76733 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-06T16:33:34.137+03:00  INFO 76733 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f05b0c
+2023-07-06T16:33:34.139+03:00  INFO 76733 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-06T16:33:34.222+03:00  INFO 76733 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0
+2023-07-06T16:33:34.360+03:00  INFO 76733 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T16:33:34.652+03:00  INFO 76733 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-06T16:33:34.659+03:00  INFO 76733 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T16:33:34.721+03:00  INFO 76733 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2023-07-06T16:33:34.802+03:00  INFO 76733 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:33:34.809+03:00  INFO 76733 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:33:34.814+03:00  INFO 76733 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2023-07-06T16:33:34.895+03:00  INFO 76733 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:33:34.902+03:00  INFO 76733 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for INSERT
+2023-07-06T16:33:34.903+03:00  INFO 76733 --- [main] c.t.s.config.batch.BatchConfiguration    : Writing Files to DB ::
+2023-07-06T16:33:34.916+03:00  INFO 76733 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:33:34.917+03:00  INFO 76733 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for UPDATE
+2023-07-06T16:33:35.187+03:00  WARN 76733 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-06T16:33:35.889+03:00  INFO 76733 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T16:33:35.892+03:00  INFO 76733 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 1 subscriber(s).
+2023-07-06T16:33:35.893+03:00  INFO 76733 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2023-07-06T16:33:35.917+03:00  INFO 76733 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-07-06T16:33:35.939+03:00  INFO 76733 --- [main] com.tahauddin.syed.Batch04Application    : Started Batch04Application in 7.333 seconds (process running for 8.184)
+2023-07-06T16:33:36.114+03:00  INFO 76733 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] launched with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 16:33:35 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}]
+2023-07-06T16:33:36.209+03:00  INFO 76733 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [stepOne]
+2023-07-06T16:33:36.276+03:00  INFO 76733 --- [main] o.s.batch.core.step.AbstractStep         : Step: [stepOne] executed in 64ms
+2023-07-06T16:33:36.365+03:00  INFO 76733 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] completed with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 16:33:35 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 183ms
+2023-07-06T16:35:25.544+03:00  INFO 76733 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T16:35:25.545+03:00  INFO 76733 --- [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 0 subscriber(s).
+2023-07-06T16:35:25.546+03:00  INFO 76733 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2023-07-06T16:35:25.551+03:00  INFO 76733 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T16:35:25.563+03:00  INFO 76733 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-06T16:35:25.603+03:00  INFO 76733 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-06T16:35:32.646+03:00  INFO 76909 --- [main] com.tahauddin.syed.Batch04Application    : Starting Batch04Application using Java 17.0.7 with PID 76909 (/home/syed/Desktop/spring-batch/batch-04/target/classes started by syed in /home/syed/Desktop/spring-batch/batch-04)
+2023-07-06T16:35:32.654+03:00  INFO 76909 --- [main] com.tahauddin.syed.Batch04Application    : No active profile set, falling back to 1 default profile: "default"
+2023-07-06T16:35:33.953+03:00  INFO 76909 --- [main] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 3 ms.
+2023-07-06T16:35:34.720+03:00  INFO 76909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-06T16:35:34.769+03:00  INFO 76909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2023-07-06T16:35:34.871+03:00  INFO 76909 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-07-06T16:35:34.881+03:00  INFO 76909 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-07-06T16:35:35.574+03:00  INFO 76909 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-07-06T16:35:35.586+03:00  INFO 76909 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-06T16:35:35.586+03:00  INFO 76909 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-06T16:35:35.680+03:00  INFO 76909 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-06T16:35:35.680+03:00  INFO 76909 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2893 ms
+2023-07-06T16:35:35.947+03:00  INFO 76909 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-06T16:35:35.994+03:00  INFO 76909 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-06T16:35:35.997+03:00  INFO 76909 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-06T16:35:36.246+03:00  INFO 76909 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T16:35:36.519+03:00  INFO 76909 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-06T16:35:36.545+03:00  INFO 76909 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-06T16:35:37.166+03:00  INFO 76909 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5efe5b25
+2023-07-06T16:35:37.170+03:00  INFO 76909 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-06T16:35:37.242+03:00  INFO 76909 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0
+2023-07-06T16:35:37.335+03:00  INFO 76909 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T16:35:37.726+03:00  INFO 76909 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-06T16:35:37.736+03:00  INFO 76909 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T16:35:37.810+03:00  INFO 76909 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2023-07-06T16:35:37.877+03:00  INFO 76909 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for INSERT
+2023-07-06T16:35:37.898+03:00  INFO 76909 --- [main] c.t.s.config.batch.BatchConfiguration    : Writing Files to DB ::
+2023-07-06T16:35:37.933+03:00  INFO 76909 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:35:37.941+03:00  INFO 76909 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:35:37.944+03:00  INFO 76909 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2023-07-06T16:35:37.985+03:00  INFO 76909 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:35:37.990+03:00  INFO 76909 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T16:35:37.991+03:00  INFO 76909 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for UPDATE
+2023-07-06T16:35:38.242+03:00  WARN 76909 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-06T16:35:38.798+03:00  INFO 76909 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T16:35:38.802+03:00  INFO 76909 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 1 subscriber(s).
+2023-07-06T16:35:38.802+03:00  INFO 76909 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2023-07-06T16:35:38.818+03:00  INFO 76909 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-07-06T16:35:38.832+03:00  INFO 76909 --- [main] com.tahauddin.syed.Batch04Application    : Started Batch04Application in 7.288 seconds (process running for 8.057)
+2023-07-06T16:35:38.961+03:00  INFO 76909 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] launched with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 16:35:38 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}]
+2023-07-06T16:35:39.018+03:00  INFO 76909 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [stepOne]
+2023-07-06T16:41:06.462+03:00  INFO 76909 --- [main] o.s.batch.core.step.AbstractStep         : Step: [stepOne] executed in 5m27s443ms
+2023-07-06T16:41:06.511+03:00  INFO 76909 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] completed with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 16:35:38 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 5m27s520ms
+2023-07-06T20:43:35.019+03:00  INFO 76909 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T20:43:35.022+03:00  INFO 76909 --- [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 0 subscriber(s).
+2023-07-06T20:43:35.023+03:00  INFO 76909 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2023-07-06T20:43:35.029+03:00  INFO 76909 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T20:43:35.034+03:00  INFO 76909 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-06T20:43:35.045+03:00  INFO 76909 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-06T20:43:39.446+03:00  INFO 182231 --- [main] com.tahauddin.syed.Batch04Application    : Starting Batch04Application using Java 17.0.7 with PID 182231 (/home/syed/Desktop/spring-batch/batch-04/target/classes started by syed in /home/syed/Desktop/spring-batch/batch-04)
+2023-07-06T20:43:39.454+03:00  INFO 182231 --- [main] com.tahauddin.syed.Batch04Application    : No active profile set, falling back to 1 default profile: "default"
+2023-07-06T20:43:40.744+03:00  INFO 182231 --- [main] o.s.b.c.c.annotation.BatchRegistrar      : Finished Spring Batch infrastructure beans configuration in 4 ms.
+2023-07-06T20:43:41.802+03:00  INFO 182231 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-06T20:43:41.928+03:00  INFO 182231 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 0 JPA repository interfaces.
+2023-07-06T20:43:42.263+03:00  INFO 182231 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-07-06T20:43:42.284+03:00  INFO 182231 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-07-06T20:43:43.972+03:00  INFO 182231 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-07-06T20:43:44.026+03:00  INFO 182231 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-06T20:43:44.032+03:00  INFO 182231 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-06T20:43:44.406+03:00  INFO 182231 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-06T20:43:44.407+03:00  INFO 182231 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4750 ms
+2023-07-06T20:43:44.833+03:00  INFO 182231 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-06T20:43:45.042+03:00  INFO 182231 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-06T20:43:45.050+03:00  INFO 182231 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-06T20:43:45.418+03:00  INFO 182231 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T20:43:45.737+03:00  INFO 182231 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-06T20:43:45.759+03:00  INFO 182231 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-06T20:43:46.666+03:00  INFO 182231 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@608b35fa
+2023-07-06T20:43:46.669+03:00  INFO 182231 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-06T20:43:46.828+03:00  INFO 182231 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0
+2023-07-06T20:43:46.958+03:00  INFO 182231 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-06T20:43:47.402+03:00  INFO 182231 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-06T20:43:47.411+03:00  INFO 182231 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T20:43:47.500+03:00  INFO 182231 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: MYSQL
+2023-07-06T20:43:47.661+03:00  INFO 182231 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for INSERT
+2023-07-06T20:43:47.693+03:00  INFO 182231 --- [main] c.t.s.config.batch.BatchConfiguration    : Writing Files to DB ::
+2023-07-06T20:43:47.778+03:00  INFO 182231 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T20:43:47.799+03:00  INFO 182231 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T20:43:47.807+03:00  INFO 182231 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2023-07-06T20:43:47.899+03:00  INFO 182231 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T20:43:47.908+03:00  INFO 182231 --- [main] .c.a.BatchObservabilityBeanPostProcessor : No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2023-07-06T20:43:47.911+03:00  INFO 182231 --- [main] c.t.s.config.batch.BatchConfiguration    : IN JDBC Batch Item Writer for UPDATE
+2023-07-06T20:43:48.458+03:00  WARN 182231 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-06T20:43:49.392+03:00  INFO 182231 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T20:43:49.393+03:00  INFO 182231 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 1 subscriber(s).
+2023-07-06T20:43:49.396+03:00  INFO 182231 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2023-07-06T20:43:49.427+03:00  INFO 182231 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-07-06T20:43:49.458+03:00  INFO 182231 --- [main] com.tahauddin.syed.Batch04Application    : Started Batch04Application in 11.426 seconds (process running for 12.956)
+2023-07-06T20:43:49.767+03:00  INFO 182231 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] launched with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 20:43:49 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}]
+2023-07-06T20:43:49.980+03:00  INFO 182231 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [stepOne]
+2023-07-06T20:50:51.656+03:00  INFO 182231 --- [main] o.s.batch.core.step.AbstractStep         : Step: [stepOne] executed in 7m1s674ms
+2023-07-06T20:50:51.699+03:00  INFO 182231 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=jobOne]] completed with the following parameters: [{'inputPath':'{value=Sales.csv, type=class java.lang.String, identifying=true}','todaysDate':'{value=Thu Jul 06 20:43:49 AST 2023, type=class java.util.Date, identifying=true}','multipleWriter':'{value=INSERT & UPDATE, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 7m1s881ms
+2023-07-06T20:52:39.505+03:00  INFO 182231 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-07-06T20:52:39.505+03:00  INFO 182231 --- [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'Spring-Batch-Project.errorChannel' has 0 subscriber(s).
+2023-07-06T20:52:39.506+03:00  INFO 182231 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2023-07-06T20:52:39.510+03:00  INFO 182231 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-06T20:52:39.513+03:00  INFO 182231 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-06T20:52:39.520+03:00  INFO 182231 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
